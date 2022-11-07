@@ -1,3 +1,35 @@
+:root {
+    --beige: #F8EDE3;
+    --cafecito: #D0B8A8;
+    --morado: #7D6E83;
+  }
+
+
 body {
-    background-color: blueviolet;
-     }
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+    text-align: center;
+  }
+
+  .cuerpo{
+    --bg: var(--beige);
+    --fontColor: var(--morado);
+    --btnBg: var(--cafecito);
+    --btnFontColor: var(--morado);
+  }
+
+  .btn {
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .txt{
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+   }
+
+
+>>>>>>> 9a76e8d0d536c3c21dc779ba180038783fb0e131
